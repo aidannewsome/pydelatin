@@ -3,6 +3,7 @@ name: Build Wheels
 # Only run on new tags starting with `v`
 on:
   pull_request:
+  workflow_dispatch:
   push:
     tags:
       - "v*"

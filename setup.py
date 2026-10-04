@@ -18,7 +18,7 @@ ext_modules = [
 
 setup(
     name="pydelatin",
-    version="0.3.0",
+    version="0.3.0+49",  # 0.3.0 with kylebarron/pydelatin#49, for Maquette until it is released
     python_requires=">=3.9",
     author="Kyle Barron",
     author_email="kylebarron2@gmail.com",
